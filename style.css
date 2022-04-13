@@ -1,3 +1,29 @@
-body {
-    background-color: greenyellow;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    
+}
+
+header h1 {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#forecastContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 {
+    text-align: center;
+}
+
+#weatherCard {
+    width: 20%
+}
+
